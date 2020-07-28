@@ -1,0 +1,105 @@
+1) for learning rate 0.01 and thresold =5
+--------------------
+Epoch number :0
+weights --->  [0. 0. 0.]
+--------------------
+Epoch number :1
+weights --->  [-0.01  0.    0.  ]
+--------------------
+Epoch number :2
+weights --->  [-0.01  0.    0.01]
+--------------------
+Epoch number :3
+weights --->  [-0.02  0.    0.01]
+--------------------
+Epoch number :4
+weights --->  [-0.02  0.01  0.01]
+--------------------
+Epoch number :5
+weights --->  [-0.02  0.01  0.02]
+--------------------
+Epoch number :6
+weights --->  [-0.02  0.01  0.02]
+1
+---------------------------
+0
+final weights --> [-0.02  0.01  0.02]
+-------------------------------------------------------------------
+
+2)for learning rate 1 and thresold =5
+--------------------
+Epoch number :0
+weights --->  [0. 0. 0.]
+--------------------
+Epoch number :1
+weights --->  [-1  0.    0.  ]
+--------------------
+Epoch number :2
+weights --->  [-1  0.   1]
+--------------------
+Epoch number :3
+weights --->  [-2  0.    1]
+--------------------
+Epoch number :4
+weights --->  [-2  1  1]
+--------------------
+Epoch number :5
+weights --->  [-2  1  2]
+--------------------
+Epoch number :6
+weights --->  [-2  1  2]
+1
+---------------------------
+0
+final weights --> [-2  1  2]
+-------------------------------------------------------------------
+3)for learning rate 100 and thresold =5
+--------------------
+Epoch number :0
+weights --->  [0. 0. 0.]
+--------------------
+Epoch number :1
+weights --->  [-100  0.    0.  ]
+--------------------
+Epoch number :2
+weights --->  [-100  0.   100]
+--------------------
+Epoch number :3
+weights --->  [-200  0.    100]
+--------------------
+Epoch number :4
+weights --->  [-200  100  100]
+--------------------
+Epoch number :5
+weights --->  [-200  100  200]
+--------------------
+Epoch number :6
+weights --->  [-200  100  200]
+1
+---------------------------
+0
+final weights --> [-200  100  200]
+-------------------------------------------------------------------
+---------------------------------------------------------------------------------
+* Impact of Threshold and Learning rate in weights and bias *
+---------------------------------------------------------------------------------
+-->Here we can see that till epoch number 4 the weights are not enough to fire neurons means
+    weights are not enough to predict correct number
+    
+    :) after epoch number 5 weights are stable and pedict correct number each time
+    
+    :) so when the threshold is less than 5 we get wrong answer and in greater than 5 threshold
+    we get right prediction
+    
+-->and for learning rate:
+        i think learning rate is not give much impact in weights and bias as threshold
+        
+        beacuse in any learning rate  we get right answer after threshold 
+        
+        beacuse weights are only multiply by different learning rate as applied.
+
+        we can see that at lr=1 weights is [-2 1 2]
+
+        we can see that at lr=10 weights is [-20 10 20]
+
+        we can see that at lr=0.01 weights is [-0.02 0.01 0.02]

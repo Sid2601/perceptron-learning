@@ -1,0 +1,23 @@
+output of problem:
+
+-->To test your data either linear or not linear with the help of single perceptron learning
+
+
+The output of test_for_lin_or_notlin.py file is:
+-----------------------------------------------------------------------------------------
+epected output --->1
+perceptron output is ---> 1
+---------------------------
+epected output --->0
+perceptron output is ---> 0
+---------------------------
+epected output --->1
+perceptron output is ---> 1
+final weights --> [-0.01  0.01  0.01  0.    0.03]
+
+-----------------------------------------------------------------------------------------
+
+As per output We can see that ,for theshold =7 and learning_rate =0.01 
+our single perceptron is trained and fit well on training data.
+
+And As per this output we can give conclusion that our data is linear as single perceptron fit well on data.
